@@ -1,0 +1,16 @@
+body {
+    background-color: #4C5B5C;
+}
+
+h2 {
+    color: bisque;
+    size: 35px;
+}
+
+#rangees {
+    border: 2px solid black;
+    margin-right: 25%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 20px;
+}
