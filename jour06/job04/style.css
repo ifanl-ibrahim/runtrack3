@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) {
+
+    .drop {
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        /* justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        height: 85px;
+        margin: 0;
+        flex-wrap: wrap; */
+        background-color: rgba(226, 196, 24, 0.301)  ;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    ul{
+        display: flex;
+        /* align-items: center; */
+    }
+
+    p {
+        /* float: right; */
+        padding-left: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        /* list-style: none; */
+    }
+}
+
+
+
+nav {
+    display: none;
+}
+
+button {
+    background-color: goldenrod;
+    padding: 2vh;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    /* margin-top: 2vh; */
+}
+
+button:hover{
+    float: right;
+}
+
+.drop {
+    position: relative;
+    display: inline-block;
+}
+
+.drop:hover > button {
+    width: 93vw;
+}
+
+.drop p {
+    color: white;
+    padding: 12px 16px;
+    /* text-decoration: none; */
+    display: block;
+}
+
+.container-button {
+    display: none;
+    /* text-decoration: none; */
+    background-color: darkgoldenrod;
+    min-width: 218px;
+    z-index: 1;
+    width: 50vw;
+}
+
+.drop:hover .container-button {
+    display: block;
+    width: 93vw;
+}

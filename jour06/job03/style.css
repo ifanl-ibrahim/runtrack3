@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    background-color: #88c1d0;
+    width: 340px;
+    height: 140px;
+    /* margin: auto; */
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section {
+        width: 340px;
+        height: 140px;
+        margin: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+    body {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section {
+        margin: 15px;
+    }
+}
