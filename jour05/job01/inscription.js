@@ -54,8 +54,11 @@ document.addEventListener('DOMContentLoaded', function loaded() {
         }
     })
 
-    fetch()
-        .then(response => response.json())
-        .then(data => console.log(data))
+    fetch('traitement.php')
+        .then(function(response) {
+            for(let data of response) {
+                console.log(data)
+            }
+        })
 
 });
